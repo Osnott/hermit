@@ -5,6 +5,9 @@
 
 [build.environment]
   HUGO_THEME = "repo"
+  HUGO_VERSION = "0.65.3"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
   command = "hugo --gc --themesDir ../.. -b $DEPLOY_PRIME_URL"
